@@ -9180,15 +9180,15 @@ label {
 }
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
-/* This file is a compatability layer.  It allows the usage of flexible box 
+/* This file is a compatability layer.  It allows the usage of flexible box
 model layouts accross multiple browsers, including older browsers.  The newest,
 universal implementation of the flexible box model is used when available (see
-`Modern browsers` comments below).  Browsers that are known to implement this 
+`Modern browsers` comments below).  Browsers that are known to implement this
 new spec completely include:
 
     Firefox 28.0+
     Chrome 29.0+
-    Internet Explorer 11+ 
+    Internet Explorer 11+
     Opera 17.0+
 
 Browsers not listed, including Safari, are supported via the styling under the
@@ -12570,7 +12570,7 @@ div#pager .ui-resizable-handle {
   background: #f7f7f7;
   border-top: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
-  /* This injects handle bars (a short, wide = symbol) for 
+  /* This injects handle bars (a short, wide = symbol) for
         the resize handle. */
 }
 div#pager .ui-resizable-handle::after {
@@ -13694,11 +13694,11 @@ a.anchor-link {
 <div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Student_Growth_Rating&#39;</span><span class="p">]</span><span class="o">==</span> <span class="s1">&#39;FAR BELOW AVERAGE&#39;</span><span class="p">,</span> <span class="s1">&#39;Student_Growth_No&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Student_Growth_Rating&#39;</span><span class="p">]</span><span class="o">==</span> <span class="s1">&#39;FAR BELOW AVERAGE&#39;</span><span class="p">,</span> <span class="s1">&#39;Student_Growth_No&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Student_Growth_Rating&#39;</span><span class="p">]</span><span class="o">==</span> <span class="s1">&#39;BELOW AVERAGE&#39;</span><span class="p">,</span> <span class="s1">&#39;Student_Growth_No&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Student_Growth_Rating&#39;</span><span class="p">]</span><span class="o">==</span> <span class="s1">&#39;AVERAGE&#39;</span><span class="p">,</span> <span class="s1">&#39;Student_Growth_No&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span> 
+<span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Student_Growth_Rating&#39;</span><span class="p">]</span><span class="o">==</span> <span class="s1">&#39;AVERAGE&#39;</span><span class="p">,</span> <span class="s1">&#39;Student_Growth_No&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span>
 <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Student_Growth_Rating&#39;</span><span class="p">]</span><span class="o">==</span> <span class="s1">&#39;ABOVE AVERAGE&#39;</span><span class="p">,</span> <span class="s1">&#39;Student_Growth_No&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">3</span>
-<span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Student_Growth_Rating&#39;</span><span class="p">]</span><span class="o">==</span> <span class="s1">&#39;FAR ABOVE AVERAGE&#39;</span><span class="p">,</span> <span class="s1">&#39;Student_Growth_No&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">4</span> 
+<span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Student_Growth_Rating&#39;</span><span class="p">]</span><span class="o">==</span> <span class="s1">&#39;FAR ABOVE AVERAGE&#39;</span><span class="p">,</span> <span class="s1">&#39;Student_Growth_No&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">4</span>
 
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Student_Growth_No&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
@@ -14284,7 +14284,7 @@ Name: Student_Growth_No, dtype: float64</pre>
 <span class="k">for</span> <span class="nb">zip</span> <span class="ow">in</span> <span class="n">zips</span><span class="p">:</span>
     <span class="n">growth_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">growth_df</span><span class="p">[</span><span class="s1">&#39;Zip&#39;</span><span class="p">]</span><span class="o">==</span> <span class="nb">zip</span><span class="p">,</span> <span class="s1">&#39;Graduation_Rate&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">grad_rate</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
     <span class="n">growth_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">growth_df</span><span class="p">[</span><span class="s1">&#39;Zip&#39;</span><span class="p">]</span><span class="o">==</span> <span class="nb">zip</span><span class="p">,</span> <span class="s1">&#39;College_Enrollment_Rate&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">college_rate</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-    
+
 <span class="n">growth_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
